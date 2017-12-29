@@ -4,13 +4,14 @@ public class Greeting {
 
     private String msg;
     private String name;
+	
 
     public Greeting() {
 
     }
 
-    public Greeting(String msg, String name) {
-        this.msg = msg;
+    public Greeting(String msg1, String name) {
+        this.msg = msg1;
         this.name = name;
     }
 
